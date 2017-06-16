@@ -1,0 +1,59 @@
+.cf::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.arrow_left {
+  position: absolute;
+  z-index: 50;
+  top: 50%;
+  left: -15%;
+}
+
+.arrow_right {
+  position: absolute;
+  z-index: 50;
+  top: 50%;
+  left: 102%;
+}
+
+.arrow__pic {
+  width: 40px;
+}
+
+.arrow__pic_left {
+  transform: rotate(180deg);
+}
+
+.slider {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+
+.slider__list {
+  padding: 0;
+  margin: 0;
+  width: 9999px;
+  overflow: hidden;
+  list-style: none;
+  margin-left: 0px;
+  transition: .5s;
+}
+
+.slider__item {
+  float: left;
+}
+
+.slider__pic {
+  height: 300px;
+  width: 300px
+}
